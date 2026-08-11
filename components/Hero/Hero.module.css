@@ -1,4 +1,6 @@
 .hero {
+    min-height: 663px;
+
     background-color: #F2F0F1;
     background-image: url("/images/hero/hero-models.png");
     background-repeat: no-repeat;
@@ -7,8 +9,6 @@
 }
 
 .container {
-    display: flex;
-
     max-width: 1440px;
     min-height: 663px;
     margin: 0 auto;
@@ -16,9 +16,6 @@
 }
 
 .content {
-    position: relative;
-    z-index: 1;
-
     max-width: 596px;
     padding-top: 103px;
     padding-bottom: 116px;
@@ -38,7 +35,7 @@
     margin-top: 32px;
 
     color: rgba(0, 0, 0, 0.6);
-    font-size: 1 rem;
+    font-size: 1rem;
     line-height: 1.375;
 }
 
