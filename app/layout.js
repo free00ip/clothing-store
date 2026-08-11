@@ -1,14 +1,19 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Cal_Sans, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+import PromoBar from "../components/PromoBar/PromoBar";
+import Header from "../components/Header/Header";
+
+const satoshi = Plus_Jakarta_Sans({
+  variable: "--font-satoshi",
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const integral = Cal_Sans({
+  variable: "--font-integral",
   subsets: ["latin"],
+  weight: "400",
 });
 
 export const metadata = {
@@ -18,8 +23,13 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
-      <body>{children}</body>
+    <html lang="en" className={`${satoshi.variable} ${integral.variable}`}>
+      <body>
+        <PromoBar />
+        <Header />
+
+        {children}
+      </body>
     </html>
   );
 }

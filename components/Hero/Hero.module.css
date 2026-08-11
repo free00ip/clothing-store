@@ -1,0 +1,93 @@
+.hero {
+    background-color: #F2F0F1;
+    background-image: url("/images/hero/hero-models.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+
+    max-width: 1440px;
+    min-height: 663px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+
+    max-width: 596px;
+    padding-top: 103px;
+    padding-bottom: 116px;
+}
+
+.title {
+    max-width: 577px;
+    margin: 0;
+
+    font-family: var(--font-integral), sans-serif;
+    font-size: 4rem;
+    line-height: 1;
+}
+
+.description {
+    max-width: 545px;
+    margin-top: 32px;
+
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 1 rem;
+    line-height: 1.375;
+}
+
+.shopButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-width: 210px;
+    margin-top: 32px;
+    padding: 15px 67.5px;
+
+    border-radius: 62px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+.stats {
+    display: flex;
+    margin-top: 48px;
+}
+
+.statItem {
+    display: flex;
+    flex-direction: column;
+    padding: 0 32px;
+
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.statItem:first-child {
+    padding-left: 0;
+}
+
+.statItem:last-child {
+    border-right: 0;
+}
+
+.statItem strong {
+    font-size: 2.5rem;
+    line-height: 1;
+}
+
+.statItem span {
+    margin-top: 6px;
+
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 1rem;
+}
+
+
