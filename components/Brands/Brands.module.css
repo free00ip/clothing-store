@@ -1,0 +1,19 @@
+.brands {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 42px 100px;
+}
+
+.container img {
+    display: block;
+    max-height: 38px;
+    width: auto;
+}
