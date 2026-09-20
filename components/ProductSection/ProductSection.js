@@ -1,15 +1,14 @@
-import ProductCard from "../ProductCard/ProductCard";
-import { newArrivals } from "../../data/product";
-import styles from "./NewArrivals.module.css";
 import Link from "next/link";
+import ProductCard from "../ProductCard/ProductCard";
+import styles from "./ProductSection.module.css";
 
-export default function NewArrivals() {
+export default function ProductSection({ title, products, showDivider }) {
   return (
     <section className={styles.section}>
-      <h2 className={styles.title}>NEW ARRIVALS</h2>
+      <h2 className={styles.title}>{title}</h2>
 
       <div className={styles.products}>
-        {newArrivals.map((product) => (
+        {products.map((product) => (
           <ProductCard
             key={product.id}
             name={product.name}
@@ -28,7 +27,7 @@ export default function NewArrivals() {
         </Link>
       </div>
 
-      <div className={styles.divider}></div>
+      {showDivider && <div className={styles.divider}></div>}
     </section>
   );
 }

@@ -1,13 +1,26 @@
 import Brands from "@/components/Brands/Brands";
 import Hero from "../components/Hero/Hero";
-import NewArrivals from "../components/NewArrivals/NewArrivals";
+import ProductSection from "../components/ProductSection/ProductSection";
+import { newArrivals, topSelling } from "../data/products";
 
 export default function Home() {
   return (
     <main>
       <Hero />
       <Brands />
-      <NewArrivals />
+
+      <ProductSection
+        title="NEW ARRIVALS"
+        products={newArrivals}
+        showDivider
+        /* showDivider={true} */
+      />
+
+      <ProductSection
+        title="TOP SELLING"
+        products={topSelling}
+        /* showDivider={false */
+      />
     </main>
   );
 }
