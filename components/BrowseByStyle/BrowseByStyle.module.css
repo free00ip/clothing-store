@@ -1,0 +1,59 @@
+.section {
+  max-width: 1240px;
+  margin: 0 auto;
+  margin-top: 80px;
+  padding: 70px 64px 76px;
+  border-radius: 40px;
+  background-color: #f0f0f0;
+}
+
+.title {
+  margin: 0;
+  font-family: var(--font-integral), sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 64px;
+}
+
+.card {
+  min-height: 289px;
+  padding: 25px 36px;
+  border-radius: 20px;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 2.25rem;
+  line-height: 1;
+}
+
+.casual {
+  grid-column: span 1;
+  background-image: url("/images/styles/casual.png");
+}
+
+.formal {
+  grid-column: span 2;
+  background-image: url("/images/styles/formal.png");
+}
+
+.party {
+  grid-column: span 2;
+  background-image: url("/images/styles/party.png");
+}
+
+.gym {
+  grid-column: span 1;
+  background-image: url("/images/styles/gym.png");
+}

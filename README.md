@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SHOP.CO — Clothing E-commerce
 
-## Getting Started
+A responsive clothing e-commerce website built with Next.js and React based on a Figma design.
 
-First, run the development server:
+> 🚧 This project is currently a work in progress.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+The goal of this project is to practice building a modern e-commerce interface from a design, working with reusable React components, product data, and responsive layouts.
+
+## Tech Stack
+
+- Next.js
+- React
+- JavaScript
+- CSS Modules
+- Git & GitHub
+
+## Current Progress
+
+Implemented so far:
+
+- Promotional bar
+- Header and navigation
+- Hero section
+- Brands section
+- New Arrivals product section
+- Top Selling product section
+- Reusable product cards
+- Product ratings, prices and discounts
+- Reusable product section component
+- Browse by Dress Style section — in progress
+
+## Project Structure
+
+```text
+app/
+components/
+data/
+public/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- `app` — pages and application layout
+- `components` — reusable UI components
+- `data` — product data
+- `public` — images, icons and other static assets
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## What Practicing
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project is helping me practice:
 
-## Learn More
+- React components and props
+- Rendering data with `.map()`
+- Conditional rendering
+- Reusable component architecture
+- Next.js App Router
+- CSS Modules
+- Flexbox and CSS Grid
+- Translating a Figma design into code
+- Git workflow and meaningful commits
 
-To learn more about Next.js, take a look at the following resources:
+## Planned Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Complete Browse by Dress Style section
+- Customer reviews
+- Newsletter and footer
+- Product listing page
+- Product details page
+- Shopping cart
+- Responsive design for tablet and mobile
+- Search and filtering
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Running Locally
 
-## Deploy on Vercel
+Clone the repository and install dependencies:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm install
+npm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Then open the development server in your browser.
+
+## Status
+
+🚧 **In Development**
+
+The project is being developed step by step and updated regularly as new sections and functionality are implemented.
