@@ -1,0 +1,40 @@
+.section {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 80px 100px 0;
+}
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.title {
+  margin: 0;
+  font-family: var(--font-integral), sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.arrows {
+  display: flex;
+  gap: 16px;
+}
+
+.arrowButton {
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.reviews {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 40px;
+}

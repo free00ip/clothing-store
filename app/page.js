@@ -3,6 +3,7 @@ import Hero from "../components/Hero/Hero";
 import ProductSection from "../components/ProductSection/ProductSection";
 import { newArrivals, topSelling } from "../data/products";
 import BrowseByStyle from "../components/BrowseByStyle/BrowseByStyle";
+import Reviews from "../components/Reviews/Reviews";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       />
 
       <BrowseByStyle />
+      <Reviews />
     </main>
   );
 }
