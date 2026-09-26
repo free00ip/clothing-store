@@ -3,6 +3,8 @@ import "./globals.css";
 
 import PromoBar from "../components/PromoBar/PromoBar";
 import Header from "../components/Header/Header";
+import NewsLetter from "../components/NewsLetter/NewsLetter";
+import Footer from "../components/Footer/Footer";
 
 const satoshi = Plus_Jakarta_Sans({
   variable: "--font-satoshi",
@@ -29,6 +31,9 @@ export default function RootLayout({ children }) {
         <Header />
 
         {children}
+
+        <NewsLetter />
+        <Footer />
       </body>
     </html>
   );
